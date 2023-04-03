@@ -8,8 +8,10 @@ import ProductAdd from "./ProductAdd";
 function Root() {
   return (
     <div className="App">
+      <form action="http://localhost:80/Scandiweb-Test/Scandiweb-test/src/routes/code.php" method="POST">
       <HeaderMain />
-      <MainContent />
+      <MainContent className="MainContent" />
+      </form>
       <Footer />
     </div>
   );

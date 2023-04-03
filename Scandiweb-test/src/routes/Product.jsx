@@ -1,12 +1,10 @@
-export default function Product() {
+export default function Product(props) {
   return (
     <div className="Product">
-      <p>SKU</p>
-      <p>Name</p>
-      <p>Price</p>
-      <p>Size</p>
-      <p>Weight</p>
-      <p>Dimensions</p>
+      <input type="checkbox" label="test" name="delete_product_id[]" id="" />
+      <p>{props.sku}</p>
+      <p>{props.name}</p>
+      <p>{props.price}$</p>
     </div>
   );
 }

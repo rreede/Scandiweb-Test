@@ -23,11 +23,6 @@ a:hover {
   color: #535bf2;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-}
-
 body {
   margin: 0;
   display: flex;
@@ -48,27 +43,56 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #515151;
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.Product {
+  width: 225px;
+  height: 275px;
+  background: white;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  text-align: center;
+
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.13);
+}
+
+.products {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.products header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MainContent {
+  margin: 50px 0px;
+}
+
+main {
+  padding: 50px 0px;
+}
+
+footer {
+  text-align: center;
+}
+
+#delete-product-btn {
+  margin-left: 12.5px;
 }

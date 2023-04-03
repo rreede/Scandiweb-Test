@@ -8,7 +8,7 @@ export default function HeaderMain() {
         <Link to="./ProductAdd">
           <button>ADD</button>
         </Link>
-        <button id="delete-product-btn">MASS DELETE</button>
+        <button type="submit" name="product_mass_delete_btn" id="delete-product-btn">MASS DELETE</button>
       </div>
     </header>
   );

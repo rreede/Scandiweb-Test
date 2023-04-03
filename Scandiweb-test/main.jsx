@@ -4,7 +4,6 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./src/routes/Root";
 import ProductAdd from "./src/routes/ProductAdd";
-import { Link } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
