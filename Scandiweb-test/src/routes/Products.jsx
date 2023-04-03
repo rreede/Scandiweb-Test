@@ -19,9 +19,7 @@ export default function Products(props) {
         {products.map((product) => (  
           <div key={product.id} name={product.name} price={product.price}></div>
         ))}
-        <Product />
-        <Product />
-        <Product />
+
 
       </div>
     </main>

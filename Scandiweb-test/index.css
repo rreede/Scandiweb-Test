@@ -25,7 +25,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -55,13 +54,13 @@ button {
 }
 
 .Product {
+  position:relative;
   width: 225px;
   height: 275px;
   background: white;
   border: 1px solid lightgray;
   padding: 20px;
   display: inline-block;
-  margin-top: 50px;
   margin-right: 50px;
   border-radius: 10px;
   text-align: center;
@@ -75,7 +74,7 @@ button {
   flex-wrap: wrap;
 }
 
-.products header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,14 +84,38 @@ button {
   margin: 50px 0px;
 }
 
-main {
-  padding: 50px 0px;
+#checkbox_item {
+  position:absolute;
+  left:25px;
+  color:red;
+}
+
+
+.products {
+  padding:50px 0;
 }
 
 footer {
   text-align: center;
+  margin-top:25px;
 }
 
 #delete-product-btn {
   margin-left: 12.5px;
+  background:rgb(255, 75, 75);
 }
+
+.cancel_btn {
+  margin-left: 12.5px;
+  background:rgb(255, 75, 75);
+}
+
+hr {
+  border:none;
+  border-top:1px solid rgb(192, 192, 192);
+}
+
+.input_items {
+  margin-top:25px;
+}
+

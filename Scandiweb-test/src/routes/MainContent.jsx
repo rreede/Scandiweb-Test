@@ -21,9 +21,9 @@ export default function MainContent(props) {
         {products.map((product) => (  
           <Product key={product.id} name={product.name} price={product.price} sku={product.sku} />
         ))}
-        
+         
       </div>
-
+      <hr />
     </main>
   );
 }

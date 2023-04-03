@@ -7,7 +7,7 @@ export default function HeaderAddProduct() {
       <div className="editButtons">
         <button>Save</button>
         <Link to="/">
-          <button>Cancel</button>
+          <button class="cancel_btn">Cancel</button>
         </Link>
       </div>
     </header>
