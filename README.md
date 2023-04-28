@@ -1,2 +1,0 @@
-# Scandiweb Test
- Scandiweb Test

@@ -4,6 +4,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./src/routes/Root";
 import ProductAdd from "./src/routes/ProductAdd";
+import NoPage from "./src/routes/Components/NoPage";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "productadd",
     element: <ProductAdd />,
+  },
+  {
+    path: "*",
+    element: <NoPage />,
   },
 ]);
 
